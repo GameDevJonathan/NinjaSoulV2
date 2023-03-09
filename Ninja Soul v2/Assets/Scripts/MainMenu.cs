@@ -25,8 +25,8 @@ public class MainMenu : MonoBehaviour
     public void NewGame()
     {
         PlayerPrefs.DeleteAll();
-
         SceneManager.LoadScene(newGameScene);
+        AudioManager.instance.PlayLevelMusic();
 
     }
 
