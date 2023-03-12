@@ -98,10 +98,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -110,9 +112,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -133,11 +135,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -746,9 +751,35 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      slash_combo_240x160_strip26_19: 21300038
+      slash_combo_240x160_strip26_16: 21300032
+      slash_combo_240x160_strip26_20: 21300040
+      slash_combo_240x160_strip26_18: 21300036
+      slash_combo_240x160_strip26_22: 21300044
+      slash_combo_240x160_strip26_25: 21300050
+      slash_combo_240x160_strip26_13: 21300026
+      slash_combo_240x160_strip26_15: 21300030
+      slash_combo_240x160_strip26_12: 21300024
+      slash_combo_240x160_strip26_0: 21300000
+      slash_combo_240x160_strip26_17: 21300034
+      slash_combo_240x160_strip26_8: 21300016
+      slash_combo_240x160_strip26_21: 21300042
+      slash_combo_240x160_strip26_4: 21300008
+      slash_combo_240x160_strip26_2: 21300004
+      slash_combo_240x160_strip26_10: 21300020
+      slash_combo_240x160_strip26_11: 21300022
+      slash_combo_240x160_strip26_9: 21300018
+      slash_combo_240x160_strip26_1: 21300002
+      slash_combo_240x160_strip26_3: 21300006
+      slash_combo_240x160_strip26_6: 21300012
+      slash_combo_240x160_strip26_5: 21300010
+      slash_combo_240x160_strip26_14: 21300028
+      slash_combo_240x160_strip26_24: 21300048
+      slash_combo_240x160_strip26_7: 21300014
+      slash_combo_240x160_strip26_23: 21300046
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
